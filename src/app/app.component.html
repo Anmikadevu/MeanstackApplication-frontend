@@ -1,20 +1,2 @@
-<mat-card
-  ><form>
-    <mat-form-field class="example-full-width">
-      <textarea
-        [(ngModel)]="message"
-        name="message"
-        matInput
-        placeholder="Message Body"
-      ></textarea>
-    </mat-form-field>
-    <button (click)="post()" mat-button>Click me!</button>
-  </form></mat-card
->
-<mat-card>
-    <h3 mat-subheader>posts</h3>
-  <mat-list role="list" *ngFor="let post of messages">
-    <mat-list-item role="listitem">{{post.body.msg}}</mat-list-item>
-    
-  </mat-list>
-</mat-card>
+<app-navbar></app-navbar>
+<app-posts></app-posts>

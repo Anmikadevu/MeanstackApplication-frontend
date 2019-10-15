@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule,MatInputModule,MatCardModule,MatButtonModule,MatListModule} from '@angular/material';
+import { PostsComponent } from './posts/posts.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PostsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
